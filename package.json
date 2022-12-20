@@ -1,0 +1,21 @@
+{
+  "name": "first_schema",
+  "version": "1.0.0",
+  "description": "schema design",
+  "main": "app.js",
+  "scripts": {
+    "start_dev": "nodemon app.js",
+    "start_prod": "SET NODE_ENV=production && nodemon server.js"
+  },
+  "author": "pranav",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^5.13.14",
+    "nodemon": "^2.0.20"
+  },
+  "engines": {
+    "node": ">=8.3.0"
+  }
+}
